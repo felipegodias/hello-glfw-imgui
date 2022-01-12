@@ -1,5 +1,15 @@
 {
   "name": "helloworld",
   "version-semver": "0.1.0",
-  "dependencies": []
+  "dependencies": [
+    "glfw3",
+    "glew",
+    {
+      "name": "imgui",
+      "features": [
+        "glfw-binding",
+        "opengl3-binding"
+      ]
+    }
+  ]
 }
